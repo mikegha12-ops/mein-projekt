@@ -1,0 +1,13 @@
+[project]
+name = "repo-check"
+version = "0.2.0"
+description = "Prüft, ob ein Projektordner die wichtigsten Open-Source-Dateien hat."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+[project.scripts]
+repo-check = "repo_check:main"
+
+[tool.setuptools]
+py-modules = ["repo_check"]
